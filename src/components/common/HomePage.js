@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Home = () = {
+const Home = () => {
   return(
     <div>
       <h1>Home Page</h1>
-      
+
       <p> Welcome to React-Redux bookshop</p>
     </div>
   );

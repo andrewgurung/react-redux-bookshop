@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const App = (props) = {
+const App = (props) => {
   return (
     <div className="container">
      <nav className="navbar navbar-default">
@@ -19,10 +19,10 @@ const App = (props) = {
          </div>
        </div>
      </nav>
+     {/* Each smaller components */}
+     {props.children}
     </div>
-
-    {props.children}
   );
 };
 
-export default App
+export default App;
